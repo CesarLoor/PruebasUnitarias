@@ -1,9 +1,13 @@
-export class Calculator {
-    multiply(NumberA: number, NumberB: number): number {
-        return NumberA * NumberB;
-    }
 
-    divide(NumberA: number, NumberB: number): number {
-        return NumberA / NumberB;
+export class Calculator {
+  multiply(numA: number, numB: number): number {
+    return numA * numB;
+  }
+
+  divide(numA: number, numB: number): number {
+    if (numB === 0) {
+      return 0;
     }
+    return numA / numB;
+  }
 }
