@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+//import { TestBed } from '@angular/core/testing';
 import { Calculator } from './calculator';
 
 describe('Test for calculator', () => {
@@ -15,7 +15,7 @@ describe('Test for calculator', () => {
 })
 
 describe('Test for divide', () => {
-  it('should create an instance', () => {
+  it('should divide', () => {
     //arrange
     let calculator= new Calculator();
     //act & assert
@@ -25,7 +25,7 @@ describe('Test for divide', () => {
 })
 
 describe('Test for divide to zero', () => {
-  it('should create an instance', () => {
+  it('should divide to zero', () => {
     //arrange
     let calculator= new Calculator();
     //act & assert

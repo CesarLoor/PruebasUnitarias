@@ -4,11 +4,15 @@ import { Calculator } from './calculator';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.html',
   imports: [RouterOutlet],
+  templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App implements OnInit {
   title = 'PruebasUnitarias';
+  
+  constructor() {}
+  
   ngOnInit(): void {
   }
 }

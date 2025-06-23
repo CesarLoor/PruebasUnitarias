@@ -5,7 +5,7 @@ export class Calculator {
   }
 
   divide(numA: number, numB: number): number {
-    if (numB === 0) {
+    if (numB === 0 || numB === undefined) {
       return 0;
     }
     return numA / numB;
